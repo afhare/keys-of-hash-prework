@@ -1,8 +1,9 @@
 class Hash
   def keys_of(arguments)
     array = []
-    *animal
-    
+    arguments.each do |key, value|
+      array<< arguments[*keys]
+    end
     array
   end
 end
